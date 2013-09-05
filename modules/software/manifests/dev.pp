@@ -3,5 +3,5 @@ class software::dev{
   $packages = ['emacs-snapshot-el',
                'emacs-snapshot-gtk',
                'emacs-snapshot']
-  package{packages:}
+  package{$packages:}
 }
