@@ -19,4 +19,7 @@ class aptconf{
 
   #Now I want some goody latest emacs thingies
   apt::ppa{'ppa:cassou/emacs':}
+  
+  #Also fishshell, the latest version (2.0!)
+  apt::ppa{'ppa:zanchey/fishfish':}
 }

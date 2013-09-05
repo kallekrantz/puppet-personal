@@ -4,4 +4,5 @@ class software{
   include software::media
   include software::virtualization
   include software::dev
+  include software::cli
 }
