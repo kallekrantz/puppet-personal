@@ -1,4 +1,4 @@
-class apt{
+class aptconf{
   include apt
   apt::ppa { 'ppa:gnome3-team/gnome3':}
   apt::source {'spotify':
