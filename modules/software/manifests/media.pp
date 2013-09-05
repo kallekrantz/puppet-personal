@@ -1,4 +1,5 @@
 class software::media{
+  require aptconf
   #Lets install spotify-preview from their preview
   package{'spotify':}
   
