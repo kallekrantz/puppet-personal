@@ -1,4 +1,4 @@
-class tools{
+class software::tools{
   $packages = ['apt',
                'git',
                'curl',
