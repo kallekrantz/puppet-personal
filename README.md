@@ -3,7 +3,7 @@ This is my Puppet Configuration for initializing all the neat things I want for 
 To apply, run:
 ```
 sudo apt-get install git puppet
-mkdir ~/src/
+mkdir -p ~/src/
 cd ~/src
 git clone --recursive https://github.com/kallekrantz/puppet-personal.git
 sudo puppet apply --modulepath ./modules/ manifests/site.pp
