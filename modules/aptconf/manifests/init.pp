@@ -21,5 +21,5 @@ class aptconf{
   apt::ppa{'ppa:cassou/emacs':}
   
   #Also fishshell, the latest version (2.0!)
-  apt::ppa{'ppa:zanchey/fishfish':}
+  apt::ppa{'ppa:zanchey/fishfish-snapshot':}
 }
