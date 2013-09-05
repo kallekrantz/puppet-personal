@@ -16,4 +16,7 @@ class aptconf{
     key => '94558F59',
     key_server => 'keyserver.ubuntu.com'
   }
+
+  #Now I want some goody latest emacs thingies
+  apt::ppa{'ppa:cassou/emacs':}
 }
