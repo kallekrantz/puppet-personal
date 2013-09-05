@@ -4,4 +4,5 @@ class software::tools{
                'curl',
                'wget'
                ]
+  packages{ $packages:}
 }
