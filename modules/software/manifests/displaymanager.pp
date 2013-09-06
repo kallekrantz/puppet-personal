@@ -9,7 +9,12 @@ class software::displaymanager{
   
   service {"gdm":
     ensure => running,
+    enable => true,
     require => [Package['ubuntu-gnome-desktop'], Package['gdm']]
+  }
+  service {"lightgdm":
+    enable => false,
+    ensure => stopped
   }
   file {'/usr/share/gnome-session/sessions/xmonad.session':
     source => "puppet:///modules/software/xmonad/xmonad.session"
