@@ -5,4 +5,5 @@ class software{
   include software::virtualization
   include software::dev
   include software::cli
+  include software::displaymanager
 }
