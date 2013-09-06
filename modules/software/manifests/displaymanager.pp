@@ -12,7 +12,7 @@ class software::displaymanager{
     enable => true,
     require => [Package['ubuntu-gnome-desktop'], Package['gdm']]
   }
-  service {"lightgdm":
+  service {"lightdm":
     enable => false,
     ensure => stopped
   }
